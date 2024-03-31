@@ -104,7 +104,7 @@ DoH：
 备用：`2404:c2c0:85d8:901::4`
 
 拦截版 DoH：
-`doh.onedns.net/dns-query`
+`https://doh.onedns.net/dns-query`
 
 拦截版 DoT：
 `dot.onedns.net`
@@ -118,7 +118,7 @@ DoH：
 备用：`2404:c2c0:85d8:901::8`
 
 纯净版 DoH：
-`doh-pure.onedns.net/dns-query`
+`https://doh-pure.onedns.net/dns-query`
 
 纯净版 DoT：
 `dot-pure.onedns.net`
