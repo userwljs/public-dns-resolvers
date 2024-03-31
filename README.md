@@ -93,7 +93,7 @@ DoH：
 
 [https://www.onedns.net/personal/](https://www.onedns.net/personal/)
 
-微步在线运营的 DNS，IPv4&IPv6，不支持加密。
+微步在线运营的 DNS，IPv4&IPv6，支持加密。
 
 拦截版 IPv4：
 首选：`52.80.66.66`
@@ -103,6 +103,12 @@ DoH：
 首选：`2400:7fc0:849e:200::4`
 备用：`2404:c2c0:85d8:901::4`
 
+拦截版 DoH：
+`doh.onedns.net/dns-query`
+
+拦截版 DoT：
+`dot.onedns.net`
+
 纯净版 IPv4：
 首选：`117.50.10.10`
 备用：`52.80.52.52`
@@ -110,6 +116,12 @@ DoH：
 纯净版 IPv6：
 首选：`2400:7fc0:849e:200::8`
 备用：`2404:c2c0:85d8:901::8`
+
+纯净版 DoH：
+`doh-pure.onedns.net/dns-query`
+
+纯净版 DoT：
+`dot-pure.onedns.net`
 
 家庭版 IPv4：
 首选：`117.50.60.30`
