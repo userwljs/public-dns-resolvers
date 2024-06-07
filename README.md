@@ -95,35 +95,44 @@ DoH：
 
 微步在线运营的 DNS，IPv4&IPv6，支持加密。
 
-拦截版 IPv4：
+### OneDNS 拦截版
+防护各类恶意软件，过滤广告骚扰。
+
+IPv4：
 首选：`52.80.66.66`
 备用：`117.50.11.11`
 
-拦截版 IPv6：
+IPv6：
 首选：`2400:7fc0:849e:200::4`
 备用：`2404:c2c0:85d8:901::4`
 
-拦截版 DoH：
+DoH：
 `https://doh.onedns.net/dns-query`
 
-拦截版 DoT：
+DoT：
 `dot.onedns.net`
 
-纯净版 IPv4：
+### OneDNS 纯净版
+不对访问网站进行任何过滤拦截，直接返回其真实的响应结果。
+
+IPv4：
 首选：`117.50.10.10`
 备用：`52.80.52.52`
 
-纯净版 IPv6：
+IPv6：
 首选：`2400:7fc0:849e:200::8`
 备用：`2404:c2c0:85d8:901::8`
 
-纯净版 DoH：
+DoH：
 `https://doh-pure.onedns.net/dns-query`
 
-纯净版 DoT：
+DoT：
 `dot-pure.onedns.net`
 
-家庭版 IPv4：
+### OneDNS 家庭版
+防护各类恶意软件，过滤广告骚扰。
+
+IPv4：
 首选：`117.50.60.30`
 备用：`52.80.60.30`
 
@@ -131,14 +140,47 @@ DoH：
 
 [https://dns.dns1.top/](https://dns.dns1.top/)
 
-不是广告（-w-），使用 AdGuardHome 搭建的私人 DNS，上游 DNS 未知，支持加密。域名更换频繁，如果发现用不了请提 issue。
+使用 AdGuardHome 搭建的私人 DNS，上游 DNS 未知，支持加密。域名更换频繁，如果发现用不了请提 issue。
 
 DoT：
 `2024.dns1.top`
-`tls://a.newlover.cn:853`
+`tls://2024.dns1.top:853`
 
 DoH：
-`https://a.newlover.cn/dns-query/a`
+`https://2024.dns1.top/dns-query/`
 
 DoQ：
-`quic://a.newlover.cn:853`
+`quic://2024.dns1.top:853`
+
+# 国外 DNS 服务器
+
+## Google Public DNS
+[https://developers.google.cn/speed/public-dns](https://developers.google.cn/speed/public-dns)
+
+由 Google 运营，免费的全球 DNS 解析服务，支持加密。
+
+IPv4：
+首选：`8.8.8.8`
+备用：`8.8.4.4`
+
+IPv6：
+首选：`2001:4860:4860::8888`
+备选：`2001:4860:4860::8844`
+
+DoH：
+`https://dns.google/dns-query`
+
+## Google Public DNS64
+[https://developers.google.cn/speed/public-dns/docs/dns64](https://developers.google.cn/speed/public-dns/docs/dns64)
+
+由 Google 运营，免费的全球 DNS 解析服务，仅支持 IPv6，支持加密。
+
+IPv6：
+首选：`2001:4860:4860::6464`
+备选：`2001:4860:4860::64`
+
+DoH：
+`https://dns64.dns.google/dns-query`
+
+DoT：
+`dns64.dns.google`
