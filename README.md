@@ -184,3 +184,56 @@ DoH：
 
 DoT：
 `dns64.dns.google`
+
+## Cloudflare DNS
+[https://developers.cloudflare.com/1.1.1.1/setup/](https://developers.cloudflare.com/1.1.1.1/setup/)
+
+1.1.1.1 是 Cloudflare 的公共 DNS 解析器。它提供了一种快速且私密的方式来浏览互联网。
+
+### Cloudflare DNS 无修改
+原汁原味的 DNS。
+
+
+IPv4：
+首选：`1.1.1.1`
+备选：`1.0.0.1`
+
+IPv6：
+首选：`2606:4700:4700::1111`
+备选：`2606:4700:4700::1001`
+
+DoH：`https://cloudflare-dns.com/dns-query`
+
+DoT：`one.one.one.one`
+
+### Cloudflare DNS 阻止恶意软件
+阻止恶意软件。
+
+
+IPv4：
+首选：`1.1.1.2`
+备选：`1.0.0.2`
+
+IPv6：
+首选：`2606:4700:4700::1112`
+备选：`2606:4700:4700::1002`
+
+DoH：`https://security.cloudflare-dns.com/dns-query`
+
+DoT：`security.cloudflare-dns.com`
+
+### Cloudflare DNS 阻止恶意软件和成人内容。
+阻止恶意软件和成人内容。
+
+
+IPv4：
+首选：`1.1.1.3`
+备选：`1.0.0.3`
+
+IPv6：
+首选：`2606:4700:4700::1113`
+备选：`2606:4700:4700::1003`
+
+DoH：`https://family.cloudflare-dns.com/dns-query`
+
+DoT：`family.cloudflare-dns.com`
