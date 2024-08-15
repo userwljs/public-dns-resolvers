@@ -42,6 +42,9 @@ DoH:
 DoT: 
 `dns.alidns.com`
 
+DoQ：
+`quic://dns.alidns.com:853`
+
 ## DNSPod
 
 [https://www.dnspod.cn/Products/publicdns/](https://www.dnspod.cn/Products/publicdns/)
