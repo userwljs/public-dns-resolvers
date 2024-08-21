@@ -1,6 +1,6 @@
 # public-dns-resolvers
 
-个人推荐 Cloudflare DNS、AdGuard Public DNS。
+个人推荐 Cloudflare DNS、AliDNS。
 
 # 中国 DNS 服务器
 
@@ -101,6 +101,7 @@ DoH:
 微步在线运营的 DNS，IPv4&IPv6，支持加密。
 
 ### OneDNS 拦截版
+
 防护各类恶意软件，过滤广告骚扰。
 
 IPv4: 
@@ -118,6 +119,7 @@ DoT:
 `dot.onedns.net`
 
 ### OneDNS 纯净版
+
 不对访问网站进行任何过滤拦截，直接返回其真实的响应结果。
 
 IPv4: 
@@ -135,6 +137,7 @@ DoT:
 `dot-pure.onedns.net`
 
 ### OneDNS 家庭版
+
 防护各类恶意软件，过滤广告骚扰。
 
 IPv4: 
@@ -160,6 +163,7 @@ DoQ:
 # 国外 DNS 服务器
 
 ## Google Public DNS
+
 [https://developers.google.cn/speed/public-dns](https://developers.google.cn/speed/public-dns)
 
 由 Google 运营，免费的全球 DNS 解析服务，支持加密。
@@ -176,6 +180,7 @@ DoH:
 `https://dns.google/dns-query`
 
 ## Google Public DNS64
+
 [https://developers.google.cn/speed/public-dns/docs/dns64](https://developers.google.cn/speed/public-dns/docs/dns64)
 
 由 Google 运营，免费的全球 DNS 解析服务，仅支持 IPv6，支持加密。
@@ -191,11 +196,13 @@ DoT:
 `dns64.dns.google`
 
 ## Cloudflare DNS
+
 [https://developers.cloudflare.com/1.1.1.1/setup/](https://developers.cloudflare.com/1.1.1.1/setup/)
 
 1.1.1.1 是 Cloudflare 的公共 DNS 解析器。它提供了一种快速且私密的方式来浏览互联网。
 
 ### Cloudflare DNS 无修改
+
 原汁原味的 DNS。
 
 IPv4: 
@@ -211,6 +218,7 @@ DoH: `https://cloudflare-dns.com/dns-query`
 DoT: `one.one.one.one`
 
 ### Cloudflare DNS 阻止恶意软件
+
 阻止恶意软件。
 
 IPv4: 
@@ -226,6 +234,7 @@ DoH: `https://security.cloudflare-dns.com/dns-query`
 DoT: `security.cloudflare-dns.com`
 
 ### Cloudflare DNS 阻止恶意软件和成人内容。
+
 阻止恶意软件和成人内容。
 
 IPv4: 
@@ -241,11 +250,13 @@ DoH: `https://family.cloudflare-dns.com/dns-query`
 DoT: `family.cloudflare-dns.com`
 
 ## AdGuard Public DNS
+
 [https://adguard-dns.io/zh_cn/public-dns.html](https://adguard-dns.io/zh_cn/public-dns.html)
 
 **这不是客制化的 AdGuard DNS**。
 
 ### AdGuard DNS 默认服务器
+
 AdGuard DNS 拦截广告和跟踪器。
 
 IPv4: 
@@ -265,6 +276,7 @@ DoQ: `quic://dns.adguard-dns.com`
 DNSCrypt: `sdns://AQMAAAAAAAAAETk0LjE0MC4xNC4xNDo1NDQzINErR_JS3PLCu_iZEIbq95zkSV2LFsigxDIuUso_OQhzIjIuZG5zY3J5cHQuZGVmYXVsdC5uczEuYWRndWFyZC5jb20`
 
 ### AdGuard DNS 无过滤服务器
+
 AdGuard DNS 不拦截广告、跟踪器或其他任何 DNS 请求。
 
 IPv4: 
@@ -284,6 +296,7 @@ DoQ: `quic://unfiltered.adguard-dns.com`
 DNSCrypt: `sdns://AQMAAAAAAAAAEjk0LjE0MC4xNC4xNDA6NTQ0MyC16ETWuDo-PhJo62gfvqcN48X6aNvWiBQdvy7AZrLa-iUyLmRuc2NyeXB0LnVuZmlsdGVyZWQubnMxLmFkZ3VhcmQuY29t`
 
 ### AdGuard DNS 家庭保护服务器
+
 AdGuard DNS 拦截广告、跟踪器、成人内容，并在可能的情况下启用安全搜索和安全模式。
 
 IPv4: 
