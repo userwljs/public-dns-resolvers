@@ -151,14 +151,10 @@ IPv4:
 使用 AdGuardHome 搭建的私人 DNS，上游 DNS 未知，支持加密。域名更换频繁，如果发现用不了请提 issue。
 
 DoT: 
-`2024.dns1.top`
-`tls://2024.dns1.top:853`
+`2025.dns1.top`
 
 DoH: 
-`https://2024.dns1.top/dns-query/`
-
-DoQ: 
-`quic://2024.dns1.top:853`
+`https://2025.dns1.top/dns-query`
 
 # 国外 DNS 服务器
 
